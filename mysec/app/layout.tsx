@@ -2,17 +2,17 @@ import Nav from "@/components/nav"
 import './globals.css'
 import { Metadata } from "next"
 
-export const metadata:Metadata ={
+export const metadata: Metadata = {
 	title: 'Kuay bOOm',
 	description: 'Muhahahahaha NextJS',
-	keywords:'KuayYai',
+	keywords: 'KuayYai',
 }
 
 const layout = ({ children }) => {
 	return (
 		<html>
 			<body>
-				<Nav/>
+				<Nav />
 				{children}
 			</body>
 		</html>
